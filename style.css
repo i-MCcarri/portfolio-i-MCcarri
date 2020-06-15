@@ -1,0 +1,104 @@
+body {
+  background-color: #F2FDFF;
+}
+
+.max-width-container {
+  max-width: 800px;
+  background-color: #F2FDFF;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 0%);
+}
+
+/* name text box */
+.h1-container {
+  text-align: left;
+  margin: 10px 10px 10px 100px;
+  padding: 5px 5px 5px 5px;
+  background-color: #F2FDFF;
+  border-radius: 25px;
+}
+/* Name */
+h1 {
+  text-align: center;
+  color: #fff;
+  font-family: cursive;
+  font-size: 45px;
+  text-shadow: 0px 0px 2px #101935;
+}
+/* software developer text box */
+.career-title {
+  text-align: center;
+  color: #DBCBD8;
+  font-family: 'Courier New';
+  font-size: 25px;
+  margin: -55px 10px -20px 100px;
+  padding: 5px 5px 20px 10px;
+  background-color: #F2FDFF;
+  border-radius: 25px;
+}
+/* image circle */
+.ady2020-container {
+  background-color: #101935;
+  float: left;
+  height: 200px;
+  margin: 0px 0px;
+  padding: 10px 10px;
+  border-color: #101935;
+  border-radius: 50%;
+}
+ /* Header container */
+.textbox-container {
+  background-color: #101935;
+  float: left;
+  width: 100%;
+  margin-left: 0px;
+  margin-top: 0px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 100px;
+}
+
+.contact-media, section {
+  background-color: #DBCBD8;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+h2 {
+text-align: left;
+margin-left: -5px;
+padding: 0px 20px;
+background-color: #564787;
+color: #DBCBD8;
+width: 500 px;
+}
+
+hr {
+  width: 800px;
+  height: 5px;
+  border: none;
+  background: #564787;
+}
+
+a, p, li {
+font-family: Helvetica, sans-serif;
+font-size: 18px;
+padding: 0px 10px 0px 10px;
+}
+
+a:link {color: #564787;}
+a:visited {color: #101935;}
+a:hover {color: #9AD4D6;}
+a:active {color: #F2FDFF;}
+
+footer {
+  background-color: #101935;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  color: #9AD4D6;
+  text-align: left;
+  margin-left: 0px;
+}
