@@ -1,5 +1,6 @@
 body {
   background-color: #F2FDFF;
+  border-top-left-radius: 100px;
 }
 
 .max-width-container {
@@ -9,6 +10,7 @@ body {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, 0%);
+  border-top-left-radius: 100px;
 }
 
 /* name text box */
@@ -22,21 +24,17 @@ body {
 /* Name */
 h1 {
   text-align: center;
-  color: #fff;
+  color: #564787;
   font-family: cursive;
   font-size: 45px;
-  text-shadow: 0px 0px 2px #101935;
+  text-shadow: 2px -2px 2px #101935;
 }
 /* software developer text box */
 .career-title {
   text-align: center;
   color: #DBCBD8;
-  font-family: 'Courier New';
   font-size: 25px;
-  margin: -55px 10px -20px 100px;
-  padding: 5px 5px 20px 10px;
-  background-color: #F2FDFF;
-  border-radius: 25px;
+  font-family: 'Courier New';
 }
 /* image circle */
 .ady2020-container {
@@ -59,20 +57,27 @@ h1 {
   border-top-left-radius: 100px;
 }
 
-.contact-media, section {
-  background-color: #DBCBD8;
+.contact-media, .background-color {
+  background-color: #F2FDFF;
+  /*BODY TEXT COLOR*/
+  color: #564787;
   font-family: Helvetica, sans-serif;
   font-size: 18px;
+  margin: 10px;
   padding-bottom: 20px;
+  border: 10px;
+  border-color: #101935;
+  text-shadow: 1px -1px 2px #DBCBD8;
 }
 
 h2 {
 text-align: left;
 margin-left: -5px;
 padding: 0px 20px;
-background-color: #564787;
-color: #DBCBD8;
+background-color: #DBCBD8;
+color: #564787;
 width: 500 px;
+text-shadow: 1px -1px 2px #101935;
 }
 
 hr {
@@ -82,16 +87,18 @@ hr {
   background: #564787;
 }
 
-a, p, li {
+p, li, h3, ul, ol{
 font-family: Helvetica, sans-serif;
 font-size: 18px;
 padding: 0px 10px 0px 10px;
+list-style-position: inside;
 }
 
+
 a:link {color: #564787;}
-a:visited {color: #101935;}
-a:hover {color: #9AD4D6;}
-a:active {color: #F2FDFF;}
+a:visited {color: #564787;}
+a:hover {color: #101935;}
+a:active {color: #DBCBD8;}
 
 footer {
   background-color: #101935;
